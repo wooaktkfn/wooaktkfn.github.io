@@ -2,7 +2,7 @@
 <html lang="ko">
 <head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
 <script>
-function event1onclick(){document.getElementById("id_1").innerHTML="동해물과 백두산이 마르고 닳도록 하느님이 보우하사 <mark>우리나라 만세</mark><br/>(후렴)무궁화 삼천리 화려강산 대한 사람 대한으로 길이 보전하세<br/>";
+function event1onclick(){document.getElementById("id_1").innerHTML="동해물과 백두산이 마르고 닳도록 하느님이 보우하사 <mark>우리나라 만세</mark><br/><i>(후렴)무궁화 삼천리 화려강산 대한 사람 대한으로 길이 보전하세</i><br/>";
 document.getElementById("id_2").innerHTML="";
 document.getElementById("id_3").innerHTML="";
 document.getElementById("id_4").innerHTML="";
@@ -27,9 +27,11 @@ document.getElementById("id_1").innerHTML="";
 </head>
 <body>
 <h4>애국가</h4>
-<p onclick="event1onclick()">1절<br/><pid="id_1"></p>
-<p onclick="event1onclick()">2절<br/><pid="id_2"></p>
-<p onclick="event1onclick()">3절<br/><pid="id_3"></p>
-<p onclick="event1onclick()">4절<br/><pid="id_4"></p>
-</body></html>
+<ul style="list-style-type:square:>
+<li onclick="event1onclick()">1절<br/><pid="id_1"></p></li>
+<li onclick="event1onclick()">2절<br/><pid="id_2"></p>/<li>
+<li onclick="event1onclick()">3절<br/><pid="id_3"></p>/<li>
+<li onclick="event1onclick()">4절<br/><pid="id_4"></p>/<li>
+                                                </ul>
+                                                </body></html>
 
